@@ -1,47 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile - Professional</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<title>Profile</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="dashboard-layout">
-        <!-- Sidebar (Same as Dashboard) -->
-        <aside class="sidebar">
-            <div class="logo"><i class="fa-solid fa-layer-group"></i> Nexus</div>
-            <ul class="nav-links">
-                <li><a href="dashboard.html"><i class="fa-solid fa-house"></i> Dashboard</a></li>
-                <li><a href="profile.html" class="active"><i class="fa-solid fa-user"></i> Profile</a></li>
-                <li><a href="settings.html"><i class="fa-solid fa-gear"></i> Settings</a></li>
-                <li><a href="login.html" style="color: var(--danger);"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
-            </ul>
-        </aside>
+<div class="profile">
 
-        <main class="main-content">
-            <div class="top-bar">
-                <h2>My Profile</h2>
-                <button class="btn btn-primary">Edit Profile</button>
-            </div>
+<h2>Profile Settings</h2>
 
-            <div class="profile-header">
-                <div class="avatar">AJ</div>
-                <div>
-                    <h1>Alex Johnson</h1>
-                    <p style="color: var(--text-light);">Senior Product Designer</p>
-                    <div style="margin-top: 10px;">
-                        <span style="background: #e0e7ff; color: var(--primary-color); padding: 4px 10px; border-radius: 20px; font-size: 0.8rem;">Verified</span>
-                    </div>
-                </div>
-            </div>
+<label>Display Name</label>
+<input type="text" value="premkumar">
 
-            <div class="grid-2">
-                <div class="card">
-                    <h3>Personal Information</h3>
-                    <div class="input-group" style="margin-top: 15px;">
-                        <label>Full Name</label>
-                        <input type="text" value="Alex Johnson" readonly>
-                    </div>
+<label>Bio</label>
+<input type="text" placeholder="About you">
+
+<label>Email Address</label>
+<input type="email" value="name@company.com">
+
+<div class="actions">
+<button class="save">Save Changes</button>
+<button class="delete">Delete Account</button>
+</div>
+
+</div>
+
+</body>
+</html>
